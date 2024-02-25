@@ -14,8 +14,8 @@ const DatabasesPage: React.FC = () => {
                         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                         src="/coderunnerspix.svg"
                         alt="CodeRunners Logo"
-                        width={360}
-                        height={74}
+                        width={180}
+                        height={37}
                         priority/>
                 </div>
                 <div className="mt-6"></div>
@@ -83,7 +83,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/pages/database/python-obfuscator" passHref
+                    <Link href="/database/python-obfuscator" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Python Obfuscator{' '}
