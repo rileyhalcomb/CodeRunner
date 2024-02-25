@@ -37,12 +37,13 @@ const PythonObfuscatorPage: React.FC = () => {
                         DYLAN DAVIS</code>
                 </p>
 
-
                 <div className="mt-4"></div>
 
+                <p style={{fontFamily: "minecraftmedium"}}>This python</p>
 
                 <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
-                    <Link href="" passHref
+                    <Link href="https://github.com/DylanDavis1/python-obfuscator" passHref
+                          target="_blank" rel="noopener noreferrer"
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             GitHub Link{' '}
