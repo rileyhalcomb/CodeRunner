@@ -9,8 +9,8 @@ const DatabasesPage: React.FC = () => {
     return (
         <>
             <Head>
-                <meta name="CR Database" content="Created by Riley Halcomb and Dylan Davis"/>
-                <title>CR Database</title>
+                <meta name="Cyber Database" content="Created by Riley Halcomb and Dylan Davis"/>
+                <title>Cyber Database</title>
             </Head>
 
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -27,7 +27,7 @@ const DatabasesPage: React.FC = () => {
                 <div className="mt-6"></div>
 
                 <div style={{fontFamily: "minecraftmedium", fontSize: "2rem"}}>
-                    <h1>DATABASE</h1>
+                    <h1>CYBER DATABASE</h1>
                 </div>
 
                 <div className="mt-6"></div>
@@ -89,45 +89,17 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/pages/database" passHref
+                    <Link href="/database/file-encryption" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
-                            Hash Buster{' '}
+                            File Encryption{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
                         <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
-                            Use the Hash Buster to crack small bit hashes.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
-                            Text Encryption{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
-                            Use Text Encryption to protect your documents.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
-                            Image Encryption{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
-                            Use Image Encryption to protect your photos.
+                            Use File Encryption to protect your documents.
                         </p>
                     </Link>
 
@@ -142,6 +114,20 @@ const DatabasesPage: React.FC = () => {
                         </h2>
                         <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use Proxy Scrape to scrape proxies from the ProxyScraper API based on HTTP, SOCKS4, and SOCKS5.
+                        </p>
+                    </Link>
+
+                    <Link href="/pages/database" passHref
+                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
+                            Hash Buster{' '}
+                            <span
+                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                                -&gt;
+                            </span>
+                        </h2>
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
+                            Use the Hash Buster to crack small bit hashes.
                         </p>
                     </Link>
 
