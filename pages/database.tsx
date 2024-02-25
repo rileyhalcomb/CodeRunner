@@ -117,35 +117,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
-                            Hash Buster{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
-                            Use the Hash Buster to crack small bit hashes.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
-                            Password Manager{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
-                            Use Password Manager to keep your passwords safe and organized.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
+                    <Link href="/database/cipher-machine" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Cipher Text{' '}
