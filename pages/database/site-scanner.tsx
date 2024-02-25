@@ -5,12 +5,12 @@ import "../../app/globals.css"
 import Image from "next/image";
 import Head from "next/head";
 
-const PythonObfuscatorPage: React.FC = () => {
+const SiteScannerPage: React.FC = () => {
     return (
         <>
             <Head>
-                <meta name="Python Obfuscator" content="Created by Riley Halcomb and Dylan Davis"/>
-                <title>Python Obfuscator</title>
+                <meta name="Website Scanner" content="Created by Riley Halcomb and Dylan Davis"/>
+                <title>Website Scanner</title>
             </Head>
 
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -28,7 +28,7 @@ const PythonObfuscatorPage: React.FC = () => {
                 <div className="mt-4"></div>
 
                 <div style={{fontFamily: "minecraftmedium", fontSize: "2rem"}}>
-                    <h1>PYTHON OBFUSCATOR</h1>
+                    <h1>WEBSITE SCANNER</h1>
                 </div>
 
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-3 pt-6 px-4 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200 lg:p-2 lg:dark:bg-zinc-800/30">
@@ -39,14 +39,13 @@ const PythonObfuscatorPage: React.FC = () => {
 
                 <div className="mt-4"></div>
 
-                <p style={{fontFamily: "minecraftmedium", textAlign: "center", paddingLeft: "100px", paddingRight: "100px"}}>This tool is designed by students for students to learn cyber-security concepts related to code
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    obfuscation. Whether you're a beginner or an experienced learner, this project aims to provide a simple way into obfuscation.
-
+                <p style={{fontFamily: "minecraftmedium", textAlign: "center", paddingLeft: "100px", paddingRight: "100px"}}>
+                    The Site Scanner program is designed to check if a link is suspicious or not by utilizing the VirusTotal
+                    API. This tool can help users identify potentially harmful links and take appropriate precautions.
                 </p>
 
                 <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
-                    <Link href="https://github.com/DylanDavis1/Python-Obfuscator" passHref
+                    <Link href="https://github.com/DylanDavis1/Coderunner-VirusTotal" passHref
                           target="_blank" rel="noopener noreferrer"
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
@@ -63,4 +62,4 @@ const PythonObfuscatorPage: React.FC = () => {
     );
 };
 
-export default PythonObfuscatorPage;
+export default SiteScannerPage;

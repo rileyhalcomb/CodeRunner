@@ -35,169 +35,141 @@ const DatabasesPage: React.FC = () => {
                 <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Keylogger{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Python-based Key Logger.
                         </p>
                     </Link>
 
-                    <Link href="/pages/database" passHref
+                    <Link href="/database/windows-login-vulnerability" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
-                            Windows Login Vulnerability{' '}
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
+                            Windows 10/11 Login Vulnerability{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Discover an extremely vulnerable Windows login.
                         </p>
                     </Link>
 
-                    <Link href="/pages/database" passHref
+                    <Link href="/database/site-scanner" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
-                            Vulnerability Scanner{' '}
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
+                            Website Scanner{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                            Find common vulnerabilities using the Vulnerability Scanner.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
-                            Brute Forcer{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                            Use the Brute Forcer to break easy to medium level passwords.
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
+                            Make sure sites are not malicious before visiting using the Website Scanner.
                         </p>
                     </Link>
 
                     <Link href="/database/python-obfuscator" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Python Obfuscator{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use the Python Obfuscator to change Python source code into unreadable characters.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Hash Buster{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use the Hash Buster to crack small bit hashes.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Text Encryption{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use Text Encryption to protect your documents.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Image Encryption{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use Image Encryption to protect your photos.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
-                            Fingerprint Blocker{' '}
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
+                            Tracker Blocker{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                            Use Fingerprint Blocker to prevent your fingerprints from being used on the web.
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
+                            Use Tracker Blocker to prevent tracking services from being used on the web.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Password Manager{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use Password Manager to keep your passwords safe and organized.
                         </p>
                     </Link>
 
                     <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             Cipher Text{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             Use this to create Cipher Text using basic cipher algorithms.
-                        </p>
-                    </Link>
-
-                    <Link href="/pages/database" passHref
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
-                            Python Scraper{' '}
-                            <span
-                                className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                -&gt;
-                            </span>
-                        </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
-                            Use Python Scraper to collect data not seen to the average user.
                         </p>
                     </Link>
                 </div>

@@ -46,7 +46,7 @@ export default function Home() {
             <div className="mt-6"></div>
 
 
-            <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+            <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-center">
                 <Link href="/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
@@ -56,7 +56,7 @@ export default function Home() {
                             -&gt;
                         </span>
                     </h2>
-                    <p className="m-0 max-w-[30ch] text-sm opacity-50 text-balance">
+                    <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                         Our database of Cybersecurity Tools and Techniques.
                     </p>
                 </Link>
@@ -70,7 +70,7 @@ export default function Home() {
                             -&gt;
                         </span>
                     </h2>
-                    <p className="m-0 max-w-[30ch] text-sm opacity-50 text-balance">
+                    <p className="m-0 text-sm opacity-50 text-balance">
                         Learn about the team and our background.
                     </p>
                 </Link>

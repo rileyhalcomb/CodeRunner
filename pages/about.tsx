@@ -50,14 +50,14 @@ const AboutPage: React.FC = () => {
                     <Link href="https://www.linkedin.com/in/rileyhalcomb/" passHref
                           target="_blank" rel="noopener noreferrer"
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             RILEY HALCOMB - LINKEDIN{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             LinkedIn for Riley Halcomb.
                         </p>
                     </Link>
@@ -65,14 +65,14 @@ const AboutPage: React.FC = () => {
                     <Link href="https://www.linkedin.com/in/dylan-davis--/" passHref
                           target="_blank" rel="noopener noreferrer"
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
+                        <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             DYLAN DAVIS - LINKEDIN{' '}
                             <span
                                 className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                                 -&gt;
                             </span>
                         </h2>
-                        <p className="m-0 max-w-[30ch] text-sm opacity-50">
+                        <p className="m-0 text-sm opacity-50" style={{textAlign: "center"}}>
                             LinkedIn for Dylan Davis.
                         </p>
                     </Link>
