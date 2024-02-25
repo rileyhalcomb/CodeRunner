@@ -19,8 +19,15 @@ const DatabasesPage: React.FC = () => {
                         priority/>
                 </div>
                 <div className="mt-6"></div>
+
+                <div style={{fontFamily: "minecraftmedium", fontSize: "2rem"}}>
+                    <h1>DATABASE</h1>
+                </div>
+
+                <div className="mt-6"></div>
+
                 <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Keylogger{' '}
@@ -34,7 +41,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Windows Login Vulnerability{' '}
@@ -48,7 +55,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Vulnerability Scanner{' '}
@@ -62,7 +69,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Brute Forcer{' '}
@@ -76,7 +83,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database/python-obfuscator" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Python Obfuscator{' '}
@@ -90,7 +97,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Hash Buster{' '}
@@ -104,7 +111,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Text Encryption{' '}
@@ -118,7 +125,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Image Encryption{' '}
@@ -132,7 +139,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Fingerprint Blocker{' '}
@@ -146,7 +153,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Password Manager{' '}
@@ -160,7 +167,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Cipher Text{' '}
@@ -174,7 +181,7 @@ const DatabasesPage: React.FC = () => {
                         </p>
                     </Link>
 
-                    <Link href="/databases" passHref
+                    <Link href="/pages/database" passHref
                           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium"}}>
                             Python Scraper{' '}

@@ -45,7 +45,7 @@ export default function DatabasesPage() {
             <div className="mt-4"></div>
 
             <div className="mb-32 grid text-center lg:max-w-2xl lg:w-full lg:mb-0 lg:grid-cols-12 lg:text-left">
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Keylogger{' '}
@@ -73,7 +73,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Vulnerability Scanner{' '}
@@ -87,7 +87,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Brute Forcer{' '}
@@ -101,7 +101,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Python Obfuscator{' '}
@@ -115,7 +115,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Hash Buster{' '}
@@ -129,7 +129,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Text Encryption{' '}
@@ -143,7 +143,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Image Encryption{' '}
@@ -157,7 +157,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Fingerprint Blocker{' '}
@@ -171,7 +171,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Password Manager{' '}
@@ -185,7 +185,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Cipher Text{' '}
@@ -199,7 +199,7 @@ export default function DatabasesPage() {
                     </p>
                 </Link>
 
-                <Link href="/databases" passHref
+                <Link href="/pages/database" passHref
                       className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
                     <h2 className="mb-3 text-2xl font-semibold">
                         Python Scraper{' '}
