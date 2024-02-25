@@ -7,8 +7,14 @@ export default function Home() {
             <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
                 <p className="fixed left-0 top-0 flex w-full justify-center border-b bg-gradient-to-b pb-6 pt-8 backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:bg-zinc-800/30">
                     &nbsp;
-                    <code className="font-mono font-bold" style={{fontFamily: "minecraftmedium"}}>NODE.JS is not
-                        fun.</code>
+                    <Link href="https://trex-runner.com/" passHref
+                          target="_blank" rel="noopener noreferrer"
+                          className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+                          style={{fontFamily: "minecraftmedium"}}>
+                        <code className="font-mono font-bold" style={{fontFamily: "minecraftmedium"}}>
+                            NODE.JS is not fun.
+                        </code>
+                    </Link>
                 </p>
 
                 <div
