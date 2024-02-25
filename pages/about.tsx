@@ -13,7 +13,6 @@ const AboutPage: React.FC = () => {
                 <title>About the Creators</title>
             </Head>
 
-
             <main className="flex min-h-screen flex-col items-center justify-between p-24">
                 <div
                     className="relative flex place-items-center after:absolute animate-none">
