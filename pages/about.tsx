@@ -33,16 +33,15 @@ const AboutPage: React.FC = () => {
 
                 <div className="mt-6"></div>
 
-                <div>
-                    <h1 style={{fontFamily: "minecraftmedium"}}>Both Riley Halcomb and Dylan Davis attend the University
-                        of Texas at San Antonio and plan to graduate in 2025.
-                        They met in High School during their Sophomore year in a Computer Science class. Ever since,
-                        they have both planned to have a career in Cybersecurity and
+                <div style={{fontFamily: "minecraftmedium", paddingLeft: "100px", paddingRight: "100px", textAlign: "center"}}>
+                    <h1 style={{margin: "0", padding: "0"}}>
+                        Both Riley Halcomb and Dylan Davis attend the University of Texas at San Antonio and plan to
+                        graduate in 2025. They met in High School during their Sophomore year in a Computer Science
+                        class. Ever since, they have both planned to have a career in Cybersecurity and support each
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        support each other in each other's business ventures. They attended the RowdyHacks Hackathon in
-                        2023 and participated in the events hosted there.
-                        Although they did not submit a project, it was a great learning experience and challenged them
-                        to prepare an idea for RowdyHacks 2024.
+                        other in each other's business ventures. They attended the RowdyHacks Hackathon in 2023 and
+                        participated in the events hosted there. Although they did not submit a project, it was a great
+                        learning experience and challenged them to prepare an idea for RowdyHacks 2024.
                     </h1>
                 </div>
 
