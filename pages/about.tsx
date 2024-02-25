@@ -1,12 +1,55 @@
 import React from "react";
+import Image from "next/image";
+
+import '../app/globals.css';
+
 
 const AboutPage: React.FC = () => {
     return (
-        <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: "100vh"}}>
-            <h1>Databases Page</h1>
+        <>
+            <style jsx global>{`
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    `}</style>
+            <main style={{
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center"
+            }}>
+                <div
+                    className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1] animate-pulse"
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "start",
+                        minHeight: "100vh"
+                    }}>
+                    <Image
+                        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        src="/coderunnerspix.svg"
+                        alt="CodeRunners Logo"
+                        width={360}
+                        height={74}
+                        priority
+                        style={{paddingTop: 20}}
+                    />
 
-            <p>This is the databases page content.</p>
-        </div>
+
+
+                </div>
+
+                <div className="mt-4"></div>
+
+                <div style={{color:"white"}}>
+                    <h1 style={{fontFamily: "minecraftmedium"}}>About Us</h1>
+                </div>
+            </main>
+        </>
+
     );
 };
 
