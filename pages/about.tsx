@@ -17,7 +17,7 @@ const AboutPage: React.FC = () => {
                 <div
                     className="relative flex place-items-center after:absolute animate-none">
                     <Image
-                        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        className="relative drop-shadow-[0_0_0.3rem_#ffffff70] invert"
                         src="/coderunnerspix.svg"
                         alt="CodeRunners Logo"
                         width={180}
@@ -49,7 +49,7 @@ const AboutPage: React.FC = () => {
                 <div className="mb-32 grid text-center lg:max-w-4xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
                     <Link href="https://www.linkedin.com/in/rileyhalcomb/" passHref
                           target="_blank" rel="noopener noreferrer"
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             RILEY HALCOMB - LINKEDIN{' '}
                             <span
@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
 
                     <Link href="https://www.linkedin.com/in/dylan-davis--/" passHref
                           target="_blank" rel="noopener noreferrer"
-                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-700 hover:bg-neutral-800/30">
                         <h2 className="mb-3 text-2xl font-semibold" style={{fontFamily: "minecraftmedium", textAlign: "center"}}>
                             DYLAN DAVIS - LINKEDIN{' '}
                             <span
